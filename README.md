@@ -1,4 +1,4 @@
-# Clothing Tag Generation Project
+# Tag Generation Project
 
 ## Project Overview
 
