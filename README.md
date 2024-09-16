@@ -21,12 +21,12 @@ This project automates the creation of custom clothing tags using product data f
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Clothing-Tag-Generation-Project.git
+    git clone https://github.com/Armaan-sinwar-1233/Tagger.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd Clothing-Tag-Generation-Project
+    cd Tag-Generation-Project
     ```
 
 3. Install the required Python packages:
