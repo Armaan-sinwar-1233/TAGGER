@@ -38,7 +38,7 @@ def generate_custom_barcode(barcode_number, BARCODE_IMAGE_FOLDER):
     }
     
     # Generate the barcode and save as an image
-    ean = barcode.get('ean13', barcode_number, writer=ImageWriter())
+    ean = barcode.get('Code 128', barcode_number, writer=ImageWriter())
     ean.write('barcode_image.png', options)
     
     # Load and add custom text to the barcode image
