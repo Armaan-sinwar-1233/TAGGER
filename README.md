@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This project automates the creation of custom clothing tags using product data from an Excel sheet. Each tag includes the product price, description, size, and a barcode. The generated tags are saved in a well-formatted Excel file, ready for printing. The barcodes are created using the `EAN-13` format, and if a barcode already exists, the system reuses it.
+This project automates the creation of custom clothing tags using product data from an Excel sheet. Each tag includes the product price, description, size, and a barcode. The generated tags are saved in a well-formatted Excel file, ready for printing. The barcodes are created using the `Code 128` format, and if a barcode already exists, the system reuses it.
 
 ## Features
 - **Excel Integration**: Reads product data such as item codes, prices, descriptions, and sizes from an input Excel file.
-- **Barcode Generation**: Dynamically generates and saves `EAN-13` barcodes for each product, ensuring every item has a unique barcode.
+- **Barcode Generation**: Dynamically generates and saves `Code 128` barcodes for each product, ensuring every item has a unique barcode.
 - **Customizable Tags**: Tags are generated with customizable design, including product price, description, size, and barcode.
 - **Batch Processing**: The system processes multiple tags at once, allowing for efficient tag generation for large product datasets.
 
@@ -15,7 +15,7 @@ This project automates the creation of custom clothing tags using product data f
 - **Pandas**: Used to read and manipulate Excel data.
 - **Openpyxl**: Handles Excel file creation and formatting.
 - **Pillow (PIL)**: Manages barcode image manipulation.
-- **Python-barcode**: Library for generating barcodes in the `EAN-13` format.
+- **Python-barcode**: Library for generating barcodes in the `Code 128` format.
 
 ## Installation
 
